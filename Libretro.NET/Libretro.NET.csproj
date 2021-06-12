@@ -2,11 +2,13 @@
 
   <PropertyGroup>
     <PackageId>Libretro.NET</PackageId>
-    <Version>0.1.0</Version>
+    <Description>.NET Standard bindings to easily run Libretro cores!</Description>
+    <Version>0.1.1</Version>
     <Authors>Julien Loir</Authors>
     <RepositoryUrl>https://github.com/Namaneo/Libretro.NET</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageReleaseNotes>$([System.IO.File]::ReadAllText("CHANGELOG.md"))</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -27,6 +29,7 @@
   <ItemGroup>
     <None Include="../README.md" Pack="true" PackagePath="" />
     <None Include="../LICENSE.md" Pack="true" PackagePath="" />
+    <None Include="../CHANGELOG.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
