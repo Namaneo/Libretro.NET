@@ -4,6 +4,14 @@ Libretro.NET provides native bindings to the famous [`libretro.h`](https://githu
 
 This project is at its early days: only basic features and non-OpenGL cores are supported. That said, if you come by and want to contribute, don't hesitate suggest/implement improvements or report issues!
 
+# Installation
+
+This library is available as a [NuGet package](https://www.nuget.org/packages/Libretro.NET/) and can be installed using the dotnet CLI:
+
+```bash
+dotnet add package Libretro.NET
+```
+
 # Sample usage
 
 ```csharp
