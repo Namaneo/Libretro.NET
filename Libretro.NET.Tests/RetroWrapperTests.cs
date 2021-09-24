@@ -5,7 +5,7 @@ namespace Libretro.NET.Tests
 {
     public class RetroWrapperTests
     {
-        private const string _corePath = "Resources/mgba_libretro.so";
+        private const string _corePath = "Resources/mgba_libretro";
         private const string _gamePath = "Resources/celeste_classic.gba";
 
 
