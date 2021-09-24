@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": ".NET Core Launch (console)",
+            "name": "Example",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
@@ -19,9 +19,15 @@
             "stopAtEntry": false
         },
         {
-            "name": ".NET Core Attach",
+            "name": "Generator",
             "type": "coreclr",
-            "request": "attach"
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Libretro.NET.Generator/bin/Debug/net5/Libretro.NET.Generator.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Libretro.NET.Generator",
+            "console": "internalConsole",
+            "stopAtEntry": false
         }
     ]
 }
