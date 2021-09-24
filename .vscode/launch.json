@@ -10,7 +10,10 @@
             "request": "launch",
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/Libretro.NET.Example/bin/Debug/net5/Libretro.NET.Example.dll",
-            "args": [ "${workspaceFolder}/Libretro.NET.Tests/Resources/mgba_libretro", "${workspaceFolder}/Libretro.NET.Tests/Resources/celeste_classic.gba" ],
+            "args": [ 
+                "../Libretro.NET.Tests/Resources/mgba_libretro", 
+                "../Libretro.NET.Tests/Resources/celeste_classic.gba"
+            ],
             "cwd": "${workspaceFolder}/Libretro.NET.Example",
             "console": "internalConsole",
             "stopAtEntry": false
